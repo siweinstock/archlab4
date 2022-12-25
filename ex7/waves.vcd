@@ -1,0 +1,156 @@
+$date
+	Fri Dec 23 17:51:06 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var wire 1 ! prediction $end
+$var reg 1 " branch $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$var reg 1 % taken $end
+$var integer 32 & expected [31:0] $end
+$scope module sat_count $end
+$var wire 1 " branch $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var wire 1 % taken $end
+$var wire 1 ! prediction $end
+$var reg 2 ' state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+0%
+1$
+1#
+0"
+0!
+$end
+#5
+0#
+1%
+1"
+0$
+#10
+b1 '
+1#
+#15
+0#
+#20
+1!
+b10 '
+1#
+b1 &
+#25
+0#
+#30
+b11 '
+1#
+#35
+0#
+#40
+1#
+#45
+0#
+#50
+0!
+b0 '
+1#
+b0 &
+1$
+#55
+0#
+0%
+0$
+#60
+1#
+#65
+0#
+#70
+1#
+#75
+0#
+#80
+b1 '
+1#
+1%
+#85
+0#
+#90
+1!
+b10 '
+1#
+b1 &
+#95
+0#
+#100
+b11 '
+1#
+#105
+0#
+#110
+1#
+#115
+0#
+#120
+b10 '
+1#
+0%
+#125
+0#
+#130
+0!
+b1 '
+1#
+b0 &
+#135
+0#
+#140
+1!
+b10 '
+1#
+b1 &
+1%
+#145
+0#
+#150
+b11 '
+1#
+#155
+0#
+#160
+1#
+#165
+0#
+#170
+b10 '
+1#
+0%
+#175
+0#
+#180
+0!
+b1 '
+1#
+b0 &
+#185
+0#
+#190
+b0 '
+1#
+#195
+0#
+#200
+1#
+#205
+0#
+#210
+1#
